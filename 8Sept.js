@@ -9,4 +9,4 @@ function sum(a) {
         };
     };
 };
-console.log(sum(1)(2)(3)(4));
+console.log(sum(1)(2)(3)(4)); // output:20
