@@ -44,12 +44,12 @@ function wentToHospital(injury, callback) {
     }, 3000);
 }
 
-function heal() {
-    setTimeout(function () {
-        console.log(`I healed quickly. :D`);
-    }, 3000)
+// function heal() {
+//     setTimeout(function () {
+//         console.log(`I healed quickly. :D`);
+//     }, 3000)
 
-}
+// }
 
 
 buyCycle('mountain', function () {
@@ -65,20 +65,20 @@ buyCycle('mountain', function () {
                             setTimeout(() => {
 
                                 console.log(`But I couldn't move my left arm.`);
-                                wentToHospital('disloacted shoulder', function (heal) {
-                                    // setTimeout(() => {
-                                    //     console.log(`My shoulder was treated and I was given some medications.`)
-                                    // }, 3000);
-                                    // setTimeout(() => {
-                                    //     console.log(`I healed rather quickly.`)
-                                    // }, 6000);
-                                    // setTimeout(() => {
-                                    //     console.log(`P.S : I STILL LOVE TO RIDE :D`)
-                                    // }, 9000);
-                                    // setTimeout(() => {
-                                    //     console.log(`THE END!`)
-                                    // }, 12000);
-                                    heal();
+                                wentToHospital('disloacted shoulder', function () {
+                                    setTimeout(() => {
+                                        console.log(`My shoulder was treated and I was given some medications.`)
+                                    }, 3000);
+                                    setTimeout(() => {
+                                        console.log(`I healed rather quickly.`)
+                                    }, 6000);
+                                    setTimeout(() => {
+                                        console.log(`P.S : I STILL LOVE TO RIDE :D`)
+                                    }, 9000);
+                                    setTimeout(() => {
+                                        console.log(`THE END!`)
+                                    }, 12000);
+                                    // heal();
                                 })
                             }, 3000)
                         })
